@@ -1,0 +1,243 @@
+body {
+  background: linear-gradient(to right, #8bd0dc, rgb(244, 233, 233));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo img {
+  width: 1000px;
+  height: 160px;
+  object-fit: cover;
+}
+header .container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #ddd;
+}
+header .container2 ul {
+  margin: 40px 0;
+  display: flex;
+}
+header .container2 ul a {
+  text-decoration: none;
+  color: black;
+}
+header .container2 ul li {
+  margin-left: 160px;
+  font-size: 30px;
+}
+header a:hover {
+  border-bottom: 2px solid rgb(36, 200, 255);
+}
+header .nav {
+  margin-right: auto;
+}
+header .nav .a {
+  margin-left: 300px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  z-index: 10;
+}
+header img {
+  position: absolute;
+}
+header i {
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: 200px;
+}
+
+.container3 {
+  display: flex;
+  background: repeating-linear-gradient(0deg, transparent, #ffffff);
+  width: 2200px;
+  background-color: #36c1e4;
+  opacity: 1;
+  border-radius: 40px;
+  margin-top: 100px;
+  z-index: 2;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.container3 img {
+  margin-left: auto;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.container3 .noidung {
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.container3 h1 {
+  font-size: 100px;
+  width: 500px;
+}
+.container3 h2 {
+  margin-top: 10px;
+  font-size: 50px;
+}
+.container3 .b {
+  color: #ffffff;
+}
+.container4 {
+  margin: 200px 0;
+  background-color: #ffffff;
+  padding: 100px;
+  border-radius: 50px;
+  width: 2000px;
+}
+.container4 h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.container4 img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+.container4 p {
+  font-size: 30px;
+  margin: 50px 100px;
+}
+.container5 h2 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0 300px;
+  margin-bottom: 100px;
+}
+.container5 .noidung {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 300px;
+  background-color: white;
+}
+
+.container5 img {
+  width: 300px;
+}
+.container5 p {
+  font-size: 25px;
+}
+.container5 {
+  margin: 200px 0;
+  background-color: #ffffff;
+  padding: 100px;
+  border-radius: 50px;
+  width: 2000px;
+}
+.container6 .a {
+  width: 800px;
+}
+.container6 .b {
+  position: absolute;
+  width: 300px;
+  left: 570px;
+  z-index: -1;
+  top: 180px;
+}
+.container6 {
+  position: relative;
+  margin-top: -300px;
+  margin-left: -100px;
+}
+.container7 {
+  margin-top: -300px;
+  width: 2000px;
+  background-color: #ffffff;
+  padding: 50px 100px;
+  border-radius: 50px;
+}
+.container7 h2 {
+  font-size: 50px;
+  text-align: center;
+}
+.container7 img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+.container7 .noidung {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  text-align: center;
+}
+.container8 {
+  margin-top: 100px;
+  width: 2000px;
+  background-color: #ffffff;
+  padding: 50px 100px;
+  border-radius: 50px;
+  background-image: url(img/z6032929476340_69167e1d20abd9cd2324ebe6a0981f81.jpg);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container8 .giamgia {
+  background-color: white;
+  width: 300px;
+
+  height: 400px;
+  margin-left: 200px;
+}
+.container8 button {
+  margin-left: auto;
+  margin-right: 300px;
+  font-size: 30px;
+  height: 60px;
+  width: 400px;
+  border-radius: 50px;
+}
+.container8 h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 10px 30px;
+  font-family: Arial, sans-serif;
+
+  color: rgb(237, 49, 49);
+  -webkit-text-stroke: 2px black;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+.container8 p {
+  font-size: 25px;
+  margin: 30px;
+}
+.container8 .giamgia {
+  animation: hieuung 3s ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes hieuung {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
